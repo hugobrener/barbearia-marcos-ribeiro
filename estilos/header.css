@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --cor-principal: #830a0a;
+    --cor-secundaria: #000;
+    --cor-alternativa: white;
+    --fonte-principal: 'Space Grotesk', sans-serif;;
+    --fonte-alternativa: Helvetica, sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 80px;
+    background-image:linear-gradient(to right, var(--cor-secundaria), var(--cor-principal));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+header a {
+    font-family: var(--fonte-principal);
+    font-size: 1.25em;
+    padding: 0px 10px; 
+    text-decoration: none;
+    color: var(--cor-alternativa);   
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header li {
+    padding: 10px;
+}
+
+.logo-header {
+    margin-left: 80px;
+}
+header li {
+    display: inline;
+    
+}
+
+.rede-social {
+    width: 100px;
+    display: flex;
+    gap: 20px;
+    margin-right: 80px;
+}
+
+.btn-mobile {
+    display: none;
+}
+
