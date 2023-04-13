@@ -14,7 +14,6 @@
 }
 
 main {
-    width: 100vw;
     background-image: linear-gradient(to Bottom,var(--cor-secundaria) 25%, var(--cor-principal)40%, var(--cor-secundaria) 63%, var(--cor-principal) 80%, var(--cor-secundaria) 95%);
     
 }
