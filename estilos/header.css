@@ -13,7 +13,6 @@
 }
 
 header {
-    width: 100vw;
     height: 80px;
     background-image:linear-gradient(to right, var(--cor-secundaria), var(--cor-principal));
     display: flex;
