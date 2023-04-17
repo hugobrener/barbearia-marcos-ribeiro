@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+
+.bg-vermelho-principal {
+    background-color: #830a0a;
+}
+
+.bg-gradient-vp {
+    background-image: linear-gradient(to right, black, #830a0a 47% );
+}
+.banner-intro {
+    height: 400px;
+    object-fit: cover;
+}
+
+.h-card {
+    height:72px;
+}
+
+.fonte-titulo {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.fonte-conteudo {
+    font-family: Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+.a-hover:hover {
+    box-shadow: 2px 2px 2px 1px  #0000007e;
+    border-radius: 16px;
+}
+
+.btn-principal {
+    width: 250px;
+    height: 56px;
+    border-radius: 16px;
+    border-style: none;
+    box-shadow: 3px 3px 3px 1px  #0000007e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.25em;
+    margin: 24px auto;
+    padding: 10px;  
+    font-weight: bold;
+}
+
+.btn-shadow {
+    box-shadow: 2px 2px 2px 1px  #0000007e;
+}
+.btn-hover:hover {
+    box-shadow: 2px 2px 2px 3px  #0000007a;
+    cursor: pointer;
+}
+
+.btn-active:active {
+    box-shadow: 0px 0px 0px 0px  #0000007a, inset 5px 5px 3px #0000007a;
+    transform: translate(5px 5px);
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+.parcerias {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    background-image: linear-gradient(to bottom, #830a0a, black );
+}
+
+.parcerias h3 {
+    margin: 24px ;
+    font-size: 1.5rem;
+}
+
+.parceiros img {
+    margin-left: 36px;
+    
+}
+
+footer p {
+    margin-top: 10px;
+}
