@@ -7,12 +7,17 @@
 .bg-gradient-vp {
     background-image: linear-gradient(to right, black, #830a0a 47% );
 }
+
 .banner-intro {
     height: 400px;
     object-fit: cover;
 
-    
+}
 
+.banner-curso {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
 }
 
 .img-carousel {
@@ -37,6 +42,11 @@
 
 .border-card {
     border-color: #830a0a;
+}
+
+.titulo-curso {
+    margin: auto;
+    position: absolute;
 }
 .titulo {
     background-color: rgba(0, 0, 0, 0.4);
@@ -136,6 +146,7 @@ footer p {
 }
 
 .img-curso-servico {
+    width: 360px;
     height: 312px;
     object-fit: cover;
     border-radius: 16px;
