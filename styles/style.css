@@ -151,3 +151,7 @@ footer p {
     object-fit: cover;
     border-radius: 16px;
 }
+
+.board {
+    max-width: 560px;
+}
